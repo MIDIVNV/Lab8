@@ -54,7 +54,7 @@ public class  Lab8
             }
         }
         for (Map.Entry<String, Integer> entry : letters.entrySet()) {
-            System.out.println(""+ entry.getKey() + ", Количество повторений = " + entry.getValue());
+            System.out.println(""+ entry.getKey() + ", Количество повторений этого слова  = " + entry.getValue());
         }
 
         System.out.println("\n" + "Перестановка элементов элементов: ");
